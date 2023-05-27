@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #7c3aed;
-  --off-white: #f3f4f6;
-  --dark-gray: #6b7280;
+  --primary-color: #ff6347; /* New primary color: coral */
+  --off-white: #f8f8ff; /* New off-white color: ghost white */
+  --dark-gray: #555555; /* New dark gray color */
 }
 
 body {
@@ -17,13 +17,10 @@ hr {
   margin: 2rem 0rem;
 }
 
-/** spaces **/
-
 .margin-md {
   margin: 2rem;
 }
 
-/** container **/
 .container {
   padding: 0rem 1rem;
 }
@@ -34,7 +31,6 @@ hr {
   margin: auto;
 }
 
-/** links **/
 .link {
   box-sizing: border-box;
   text-decoration: none;
@@ -59,10 +55,6 @@ hr {
   color: var(--primary-color);
 }
 
-/** look into BEM naming convention for CSS **/
-
-/** lists **/
-
 .list-non-bullet {
   list-style: none;
   padding-inline-start: 0px;
@@ -72,8 +64,6 @@ hr {
   display: inline;
   padding: 0rem 0.5rem;
 }
-
-/** navigation **/
 
 .navigation {
   background-color: var(--primary-color);
@@ -104,8 +94,6 @@ hr {
   font-weight: bold;
 }
 
-/** header **/
-
 .hero {
   padding: 2rem;
   padding-top: 5rem;
@@ -128,8 +116,6 @@ hr {
   color: var(--primary-color);
 }
 
-/** sections **/
-
 .section {
   padding: 2rem;
   margin: 2rem 0;
@@ -144,8 +130,6 @@ hr {
 .ow {
   background-color: var(--off-white);
 }
-
-/** footers **/
 
 .footer {
   background-color: var(--primary-color);
@@ -168,14 +152,13 @@ hr {
   padding-inline-start: 0px;
 }
 
-/** projects **/
 .showcase-list {
-  /* padding: 2rem; */
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
   margin: 3rem auto;
 }
+
 .showcase-list h1 {
   margin: 0.5rem;
 }
@@ -183,8 +166,6 @@ hr {
 .showcase-list p {
   padding-bottom: 1rem;
 }
-
-/** blogs **/
 
 .showcase-blog {
   padding-bottom: 6rem;
